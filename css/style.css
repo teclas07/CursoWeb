@@ -485,6 +485,41 @@ body {
 	text-align  : center;
 }
 
+.slider-doctors {
+	margin-top:  100px;
+	padding-bottom:  10px;
+}
+
+.slider-doctors .item-doctors {
+	padding-bottom:  1px;
+}
+
+/* slider */
+.slider-doctors .owl-nav {
+	position:  absolute;
+	top:  37%;
+	width:  100%;
+}
+
+.slider-doctors .owl-prev,
+.slider-doctors .owl-next {
+	position: absolute;
+	height: 70px;
+	width:  70px;
+	display:  block;
+	transition:  all .3s;
+}
+
+.slider-doctors .owl-prev {
+	left: -10%;
+	background: url("../img/seta-e-doctor.png") no-repeat;
+}
+
+.slider-doctors .owl-next {
+	right:  -10%;
+	background: url("../img/seta-d-doctor.png") no-repeat;
+}
+
 .margin-negativa {
 	display      : block;
 
